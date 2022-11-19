@@ -35,5 +35,42 @@ void main() {
   // const we cannot change
   // final we cannot change, can be null when started
 
+  // Conditionals
+
+  //if and else
+  bool adult;
+
+  if(age >= 18){
+    adult = true;
+  } else {
+    adult = false;
+  }
+  print("Am I a adult?:  $adult");
+
+  // Looping
+
+  // For
+  for(int i = 1; i <= 5; i++){
+    print('Loop $i');
+  }
+
+  // While
+  // Repetitions that we dont know
+  int energy = 10;
+  while(energy > 0){
+    print('Energy: $energy');
+    energy = energy - 2;
+  }
+
+  do{
+    print('Energy: $energy');
+    energy = energy - 2;
+  } while(energy > 0);
+
+
+
+
+
+
 
 }

@@ -68,6 +68,15 @@ void main() {
   } while(energy > 0);
 
 
+  // Comments
+  /* multilines */
+  // TODO: something
+  /// Documentations docs
+
+  // documentation: http://www.dart.dev
+
+  
+
 
 
 
